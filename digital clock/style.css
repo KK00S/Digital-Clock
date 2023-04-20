@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10101e;
+}
+
+.clock:hover {
+    background: #2e94e3;
+    box-shadow: 0 0 30px #2e94e3;
+}
+
+.clock {
+    color: #fff;
+    background: #10101e;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 900;
+    width: 150px;
+    padding: 15px 10px;
+    border: 3px solid #2e94e3;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+}
